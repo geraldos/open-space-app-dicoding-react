@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import TalkItem, { talkItemShape } from './TalkItem';
 
 function TalksList({ talks, like }) {
-  console.log(talks);
   return (
     <div className="talks-list">
       {

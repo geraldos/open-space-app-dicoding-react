@@ -34,7 +34,6 @@ function HomePage() {
     user: users.find((user) => user.id === talk.user),
     authUser: authUser.id,
   }));
-  console.log({ talkList });
 
   return (
     <section className="home-page">

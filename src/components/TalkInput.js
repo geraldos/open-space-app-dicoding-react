@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function TalkInput({ addTalk }) {
   const [text, setText] = useState('');
-  console.log(addTalk);
+
   function addtalk() {
     if (text.trim()) {
       addTalk(text);
